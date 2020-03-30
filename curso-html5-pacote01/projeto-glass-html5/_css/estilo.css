@@ -30,10 +30,10 @@ a:hover {
 div#interface {
 	background-color: white;
 	width: 1200px;
-	margin: -13px auto 0px auto;
+	margin: auto;
 	padding: 10px;
 	box-sizing: border-box;
-	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 img#icone {
 	position: absolute;
@@ -105,12 +105,12 @@ nav#menu ul {
 	text-transform: uppercase;
 	position: absolute;
 	top: -18px;
-	left: 600px;
+	left: 650px;
 }
 nav#menu li {
 	display: inline-block;
 	padding: 10px;
-	margin: 0px;
+	margin: 12px auto auto auto;
 	background-color: #dddddd;
 	transition: 1s;
 }
@@ -122,7 +122,7 @@ nav#menu h1 {
 }
 nav#menu a {
 	text-decoration: none;
-	color: black;
+	color:black;
 }
 nav#menu a:hover {
 	text-decoration: underline;
