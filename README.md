@@ -1,4 +1,4 @@
-# Site desenvolvido em HTML5, CSS3 e Javascript
+# Projeto desenvolvido em HTML5, CSS3 e Javascript
 
 ![](_interface/01-index.jpg)
 ![](_interface/02-specs.jpg)
