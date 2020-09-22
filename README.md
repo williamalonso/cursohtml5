@@ -1,4 +1,4 @@
-# Projeto desenvolvido em HTML5, CSS3 e Javascript
+# Acesse: https://projeto-google-glass.vercel.app/
 
 ![](_interface/01-index.jpg)
 ![](_interface/02-specs.jpg)
