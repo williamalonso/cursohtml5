@@ -8,7 +8,7 @@
     <script language="javascript" src="_javascript/funcoes.js"></script>
     <script>
         function calc_total(){
-            var qtd = parsint(document.getElementById("cQtd").value);
+            var qtd = document.getElementById("cQtd").value;
             tot = qtd * 1500;
             document.getElementById("cTot").value = tot;
         }
@@ -44,7 +44,7 @@
             </hgroup>
         </header>
 
-        <form method="post" id="fContato" action="mailto:williamalonso@outlook.com" oninput="calc_total();">
+        <form method="post" id="fContato" action="mailto:williamalonso@outlook.com">
             <fieldset id="usuario">
                 <legend>Identificação do Usuário</legend>
                     <p><label for="cNome">Nome:</label><input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo" /></p>
@@ -148,7 +148,7 @@
                     </p>
                     <p>
                         <label for="">Quantidade:</label>
-                        <input type="number" name="tQtd" id="cQtd" min="0" max="5" value="0" />
+                        <input type="number" name="tQtd" id="cQtd" min="0" max="5" value="0" oninput="calc_total()" />
                     </p>
                     <p>
                         <label for="">Preço Total: R$</label>
