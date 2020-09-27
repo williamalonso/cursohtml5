@@ -12,7 +12,7 @@ Este readme está dividido em:
 
 ## Descrição
 
-Trata-se de um site sobre o Google Glass desenvolvido nas tecnologias HTML5 e CSS3.
+Trata-se de um site sobre o Google Glass desenvolvido nas tecnologias HTML5 e CSS3 para fins didáticos.
 
 ## Funcionalidades
 
